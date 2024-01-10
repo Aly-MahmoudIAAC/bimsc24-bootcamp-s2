@@ -1,0 +1,36 @@
+html{
+
+    background-color: rgb(235, 235, 235);
+
+}
+
+body{
+    margin:0;
+}
+
+#titlebar{
+    
+    height: 50px;
+
+
+}
+
+#flexed{ 
+
+    display: flex;
+    height: calc(100vh - 50px);  
+}
+
+#main{
+    width:70%;
+}
+#side{
+    width:30%;
+}
+
+.container{
+
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+}
