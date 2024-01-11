@@ -10,7 +10,7 @@ body{
 
 #titlebar{
     
-    height: 50px;
+    height: 60px;
 
 
 }
@@ -22,15 +22,34 @@ body{
 }
 
 #main{
-    width:70%;
+    width:90%;
 }
 #side{
-    width:30%;
+    width:10%;
 }
 
 .container{
 
     border-style: solid;
-    border-color: aqua;
+    border-color: rgb(148, 82, 82);
     border-width: 5px;
 }
+
+#choices{ 
+    display: flex;
+    width: 86%;
+    position: absolute;
+    left: 12%;
+    top: 5%;
+    background-color: rgb(114, 114, 114);
+    color: antiquewhite;
+    padding: 0.5%;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 150px;
+  }
+
+ 
